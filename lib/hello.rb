@@ -6,7 +6,7 @@ def hello_t(array)
       i += 1                  #increment
     end
 
-    return array                     #returns original array
+    return array                     #returns original array. By having it be last line of this method
   else
     puts "Hey! No block was given!"
   end
