@@ -6,7 +6,7 @@ def hello_t(array)
       i += 1                  #increment
     end
 
-    array                     #
+    return array                     #returns original array
   else
     puts "Hey! No block was given!"
   end
