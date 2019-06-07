@@ -1,5 +1,5 @@
 def hello_t(array)
-  if block_given?             #
+  if block_given?             #block_given? method continues if true false if no block present in method
     i = 0                     #initialize counter
     while i < array.length    #while condition
       yield(array[i])         #
