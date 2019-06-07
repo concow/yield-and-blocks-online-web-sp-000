@@ -3,7 +3,7 @@ def hello_t(array)
     i = 0                     #initialize counter
     while i < array.length    #while condition
       yield(array[i])         #yield each element of collection array to the block
-      i += 1                  #increment
+        i += 1                  #increment
     end
 
     return array                     #returns original array. By having it be last line of this method
