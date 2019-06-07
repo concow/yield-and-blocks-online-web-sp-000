@@ -2,7 +2,7 @@ def hello_t(array)
   if block_given?             #block_given? method continues if true false if no block present in method
     i = 0                     #initialize counter
     while i < array.length    #while condition
-      yield(array[i])         #
+      yield(array[i])         #yield each element of collection array to the block
       i += 1                  #increment
     end
 
