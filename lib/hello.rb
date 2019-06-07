@@ -1,4 +1,6 @@
-#Yield each successive element to an accompanying block. That block used a parameter placeholder, |name|, to set a variable, name, equal to whatever value is yielded into the block at each step of the iteration
+#Yield each successive element to an accompanying block. That block used a parameter placeholder,
+#|name|, to set a variable, name, equal to whatever value is yielded into the block at each step of the iteration
+
 def hello_t(array)
   if block_given?             #block_given? method continues if true false if no block present in method
     i = 0                     #initialize counter
