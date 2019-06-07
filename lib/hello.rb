@@ -19,4 +19,3 @@ end
     #puts "Hi, #{name}"
   #end
 #end
-hello_t(["Tim", "Tom", "Jim"])
